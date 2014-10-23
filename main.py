@@ -16,7 +16,7 @@ while True:
         for ap in scan_results[1]:
             results.setdefault(ap['bssid'], (ap['ssid'], ap['capabilities']))
         print('writing')
-        file = open('/sdcard/res.txt', 'w')
+        file = open('/%s/res.txt' % sys.path[0], 'w')
         file.write(str(results))
         file.close()
     eventResult = droid.eventWait(10000).result
