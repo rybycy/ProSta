@@ -7,7 +7,7 @@ droid = Android()
 
 results = {}
 
-#droid.wifiDisconnect()
+droid.wifiDisconnect()
 print('starting')
 while True:
     scan_success = droid.wifiStartScan()
