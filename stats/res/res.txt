@@ -1,0 +1,1 @@
+{'08:76:ff:c9:63:6a': ('TNCAPC9636A', '[WPA-PSK-TKIP][WPA2-PSK-CCMP][WPS][ESS]'), 'c8:d3:a3:28:a8:5a': ('dlink', '[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]'), '00:22:6b:4d:45:89': ('rybycy', '[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]'), '00:1b:11:9b:b7:ca': ('DupaJasiu', '[WEP][ESS]'), '10:fe:ed:8d:ab:2c': ('komos_lte', '[WPA2-PSK-CCMP][WPS][ESS]')}
