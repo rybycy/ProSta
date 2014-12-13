@@ -5,6 +5,8 @@ from time import gmtime, strftime
 import sys
 import os
 
+MAX_APS_PER_FILE = 150
+
 droid = Android()
 
 results = {}
@@ -26,4 +28,6 @@ while True:
         file = open("%s/res_%s.txt" % (directory, date), 'w')
         file.write(str(results))
         file.close()
+        if len(results) > MAX_APS_PER_FILE:
+            date = strftime("%m_%d_%H_%M_%S", gmtime())
     eventResult = droid.eventWait(10000).result
